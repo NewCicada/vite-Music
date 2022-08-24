@@ -1,7 +1,34 @@
-# Vue 3 + Vite
+# A NetEase Cloud Review
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+* Get Top NetEase Cloud Reviews from Mom and Dad
 
-## Recommended IDE Setup
+#### very good idea!
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## technology stack
+* Vue2
+* Vite
+* bricks.js
+
+* 使用大佬提供的[网易云接口](https://github.com/Binaryify/NeteaseCloudMusicApi)获取评论信息
+
+[查看热评](https://vite-music-1y7zm3tg1-newcicada.vercel.app/)
+
+## Project setup
+```
+pnpm install
+```
+
+### Compiles and hot-reloads for development
+```
+pnpm run dev
+```
+
+### Compiles and minifies for production
+```
+pnpm run build
+```
+
+### Lints and fixes files
+```
+pnpm run preview
+```

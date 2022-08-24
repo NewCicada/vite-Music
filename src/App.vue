@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- 标题 -->
     <h1 class="title">- 爸爸妈妈の网易云评论 -</h1>
     <!-- 视频 -->
     <div id="video">
@@ -13,6 +14,7 @@
       />
     </div>
     <!-- 评论部分 -->
+    <!-- 热评 -->
     <h2 class="subtitle">热评 TOP15</h2>
     <div id="hot-comment-list">
       <HelloWorld
@@ -20,7 +22,7 @@
           :key="index"
           :comment-obj="item"/>
     </div>
-
+    <!-- 非热评 -->
     <h2 class="subtitle">评论回忆</h2>
     <div id="comment-list">
       <HelloWorld
@@ -28,6 +30,7 @@
           :key="index"
           :comment-obj="item"/>
     </div>
+    <!-- 加载更多 -->
     <div class="load-more">
       <a class="load-more-button" @click="loadMoreComments">
         {{loading ? "加载中..." : "加载更多"}}
